@@ -1,0 +1,10 @@
+#bigrectangle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1336px;
+    height: 856px;
+    left: 2260px;
+    top: 950px;
+    border: 1px solid #C4C4C4;
+    border-radius: 40px;
+}
