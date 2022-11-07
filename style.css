@@ -1,3 +1,4 @@
+
 #bigrectangle {
     box-sizing: border-box;
     position: absolute;
@@ -7,4 +8,26 @@
     top: 950px;
     border: 1px solid #C4C4C4;
     border-radius: 40px;
+}
+#yrectangle {
+    position: absolute;
+    width: 1336px;
+    position: absolute;
+    height: 110px;
+    background: #FFDC40;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.heading {
+    position: absolute;
+    width: 598px;
+    left: 320px;
+    top: 173px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 76px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
 }
