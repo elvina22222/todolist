@@ -33,7 +33,12 @@
 
   const btn = document.querySelector('button');
   btn.onclick = function() {
-    tbl = document.createElement('table');
-    smallrectangle.add (tbl)
+    const diiv = document.createElement('div');
+    // diiv.innerHTML = `
+    // <input class="typetext" type="text">
+    // <img src="/image/whitecross.svg" alt="Not found" class="whitecross" >
+    // `
+    const smallRectangle = document.querySelector('#smallrectangle');
+    smallRectangle.append(diiv);
   }
   
